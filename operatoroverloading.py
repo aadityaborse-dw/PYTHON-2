@@ -5,7 +5,7 @@ class box:
     def __add__(self,other):
         return self.weight+ other.weight
   
-b1=box(20)
+b1=box(30)
 b2=box(70)
 
 print(b1+b2)
